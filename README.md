@@ -28,7 +28,6 @@ Whether you are staking your first TON, building a DeFi protocol, or assessing K
 * **GitHub:** <https://github.com/KTON-IO>
 * **Medium:** <https://medium.com/kton-io>
 * **DefiLlama:** <https://defillama.com/protocol/kton>
-* **GitBook Documentation:** [GitHub Pages]
 
 ---
 
