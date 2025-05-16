@@ -35,7 +35,7 @@ $KTON serves as a foundational asset across the TON DeFi stack.  Below is a non-
 | **Ledger (via Tonkeeper)** | Hardware-wallet custody for KTON | Live |
 | **TONX API** | High-throughput RPC & indexer endpoints | Live |
 | **Tonkey V2** | Multi-sig wallet (V1 contract) for shared custody | Live |
-| **Tonkey V3** | Next-gen multi-sig wallet (V2 contract) with improved UX | In development |
+| **Tonkey V3** | Next-gen multi-sig wallet (V2 contract) with improved UX | Live |
 
 ---
 

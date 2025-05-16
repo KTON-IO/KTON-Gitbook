@@ -3,7 +3,7 @@
 Welcome to the official GitBook for **KTON**, the institutional-grade liquid staking protocol built for **The Open Network (TON)**.  
 This documentation provides a comprehensive, technical and business-oriented reference for users, developers, node operators and institutional partners who wish to understand, integrate, or contribute to KTON.
 
-> "Our mission is to unlock the full potential of TON by delivering secure, capital-efficient staking for everyone — from individual holders to the world's largest institutions." — **TONX Studio**
+> "Our mission is to unlock the full potential of TON by delivering secure, capital-efficient staking for everyone — from individual holders to the world's largest institutions." — **TONX**
 
 ---
 
@@ -31,4 +31,20 @@ Whether you are staking your first TON, building a DeFi protocol, or assessing K
 
 ---
 
-Proceed to **[1. Introduction to KTON](01-Introduction-to-KTON.md)** to start exploring. 
+## Documentation Map
+
+1. [Introduction to KTON](01-Introduction-to-KTON.md)
+2. [Why KTON?](02-Why-KTON.md)
+3. [KTON Basics](03-KTON-Basics.md)
+4. [Technical Architecture](04-Technical-Architecture.md)
+5. [Smart Contract Design](05-Smart-Contract-Design.md)
+6. [Governance and Tokenomics](06-Governance-and-Tokenomics.md)
+7. [Security and Audits](07-Security-and-Audits.md)
+8. [DeFi Integrations](08-DeFi-Integrations.md)
+9. [User Guide](09-User-Guide.md)
+10. [Community & Resources](10-Community-and-Resources.md)
+11. [License](11-License.md)
+
+---
+
+Proceed with **Introduction to KTON** or jump directly to any chapter above. 
