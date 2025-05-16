@@ -11,4 +11,5 @@
 * [8. DeFi Integrations](08-DeFi-Integrations.md)
 * [9. User Guide](09-User-Guide.md)
 * [10. Community and Resources](10-Community-and-Resources.md)
-* [11. License](11-License.md) 
+* [11. License](11-License.md)
+* [📱 Telegram Mini App](https://t.me/ktonio_bot) 

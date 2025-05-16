@@ -1,0 +1,13 @@
+{
+  "title": "KTON: Institutional-Grade Liquid Staking on TON",
+  "description": "Official documentation for KTON, the institutional-grade liquid staking protocol built for The Open Network (TON)",
+  "author": "TONX",
+  "language": "en",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+} 

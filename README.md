@@ -24,10 +24,11 @@ Whether you are staking your first TON, building a DeFi protocol, or assessing K
 
 * **App:** <https://app.kton.io/>
 * **Website:** <https://kton.io/>
-* **Docs (legacy):** <https://docs.kton.io/>
+* **Telegram Bot:** <https://t.me/ktonio_bot> - KTON Telegram Mini App
 * **GitHub:** <https://github.com/KTON-IO>
 * **Medium:** <https://medium.com/kton-io>
-* **DefiLlama:** <https://defillama.com/protocol/kton?denomination=TON>
+* **DefiLlama:** <https://defillama.com/protocol/kton>
+* **GitBook Documentation:** [GitHub Pages]
 
 ---
 
@@ -48,3 +49,9 @@ Whether you are staking your first TON, building a DeFi protocol, or assessing K
 ---
 
 Proceed with **Introduction to KTON** or jump directly to any chapter above. 
+
+---
+
+## GitBook Deployment
+
+This documentation is set up with GitHub Actions to automatically deploy to GitHub Pages when changes are pushed to the main branch. See [.github/README.md](.github/README.md) for more details on deployment.

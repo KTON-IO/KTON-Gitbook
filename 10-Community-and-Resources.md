@@ -19,7 +19,6 @@ Join the KTON community, contribute to the ecosystem and stay informed:
 
 ## 10.2 Support
 
-* **Discord** — Under construction; join Telegram meanwhile.
 * **Email** — `contact@kton.io`
 
 ## 10.3 Contribution Guide

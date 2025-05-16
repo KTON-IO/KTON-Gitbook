@@ -2,8 +2,6 @@
 
 KTON is engineered around a **modular, upgradable smart-contract system** dubbed **LST V2**.  The design separates critical functions into isolated contracts, enabling safer upgrades and clearer auditability.
 
-![Architecture](https://raw.githubusercontent.com/KTON-IO/awesome-kton/main/media/architecture.png)
-
 ## 4.1 Core Participants
 
 | Role | Description |
@@ -45,17 +43,16 @@ KTON is engineered around a **modular, upgradable smart-contract system** dubbed
 
 ## 4.3 Data Flow
 
-```mermaid
-graph TB
-  User[User Wallet] -- Deposit --> PoolRoot
-  PoolRoot -- Mint KTON --> JettonMinter
-  PoolRoot -- Stake TON --> Controller
-  Controller -- Elector Msgs --> TON Elector
-  TON Elector -- Rewards --> Controller
-  Controller -- Update Rate --> PoolRoot
-  PoolRoot -- Burn KTON --> JettonMinter
-  PoolRoot -- Redeem TON --> User
-```
+KTON uses a structured flow of funds and data between the user wallets and various system components:
+
+1. Users deposit TON coins into the Pool Root contract
+2. Pool Root mints KTON tokens via the Jetton Minter
+3. TON coins are staked through the Controller contract
+4. The Controller interacts with TON Elector for validator operations
+5. Rewards flow from TON Elector back to the Controller
+6. The Controller updates exchange rates in the Pool Root
+7. When redeeming, Pool Root burns KTON tokens via Jetton Minter
+8. Finally, TON coins are returned to users
 
 ## 4.4 Security Layers
 

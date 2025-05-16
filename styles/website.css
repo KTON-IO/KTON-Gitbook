@@ -1,0 +1,78 @@
+/* 全局樣式 */
+.book {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* 標題樣式 */
+.book-header h1 {
+  font-weight: 600;
+}
+
+.markdown-section h1, 
+.markdown-section h2, 
+.markdown-section h3 {
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+/* 正文樣式 */
+.markdown-section {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* 代碼塊樣式 */
+.markdown-section pre {
+  background-color: #f7f9fb;
+  border-radius: 4px;
+}
+
+.markdown-section code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/* 引用塊樣式 */
+.markdown-section blockquote {
+  border-left: 4px solid #0366d6;
+  color: #333;
+  background-color: #f1f8ff;
+  padding: 15px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* 鏈接樣式 */
+.markdown-section a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.markdown-section a:hover {
+  text-decoration: underline;
+}
+
+/* 表格樣式 */
+.markdown-section table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.markdown-section table th {
+  background-color: #f7f9fb;
+  font-weight: 600;
+}
+
+.markdown-section table td,
+.markdown-section table th {
+  border: 1px solid #dfe2e5;
+  padding: 8px 12px;
+}
+
+/* 水平線樣式 */
+.markdown-section hr {
+  height: 1px;
+  background-color: #dfe2e5;
+  border: none;
+  margin: 2em 0;
+} 

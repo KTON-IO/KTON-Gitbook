@@ -2,6 +2,8 @@
 
 This chapter provides a step-by-step walkthrough for staking TON, managing $KTON and interacting with DeFi integrations.
 
+> **Quick Access**: Use our Telegram Mini App for the simplest staking experience - <https://t.me/ktonio_bot>
+
 ## 9.1 Requirements
 
 * **TON Wallet** (Tonkeeper, MyTonWallet, OpenMask or OWallet)

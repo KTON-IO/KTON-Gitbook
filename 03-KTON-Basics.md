@@ -13,8 +13,6 @@
 3. **Earn** — Validators generate rewards, increasing the exchange rate *TON per KTON*.
 4. **Redeem or Swap** — Burn $KTON to reclaim TON (with an optional instant-withdrawal fee) or trade on DEXs for immediate liquidity.
 
-![Flow](https://raw.githubusercontent.com/KTON-IO/awesome-kton/main/media/flow.png)
-
 ## 3.3 Key Metrics
 
 | Metric | Description |

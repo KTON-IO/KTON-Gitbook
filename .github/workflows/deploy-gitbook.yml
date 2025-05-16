@@ -1,0 +1,78 @@
+name: Deploy GitBook to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]  # Triggered when pushing to main branch
+  pull_request:
+    branches: [ main ]  # Triggered when PR to main branch
+  workflow_dispatch:    # Allow manual workflow triggers
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one deployment workflow execution at a time
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install Honkit
+        run: |
+          npm init -y
+          npm install honkit --save-dev
+          
+      - name: Prepare assets for build
+        run: |
+          # Ensure images are displayed properly
+          echo "Listing image directory contents:"
+          ls -la image/
+          
+      - name: Test Build
+        run: |
+          npx honkit build
+          
+      - name: Verify build output and fix image paths
+        run: |
+          # Check build output
+          echo "Listing _book directory structure:"
+          ls -la _book/
+          
+          # Ensure the image directory exists in the output
+          if [ ! -d "_book/image" ] && [ -d "image" ]; then
+            echo "Copying image directory to build output..."
+            cp -R image _book/
+          fi
+          
+          # Create .nojekyll file
+          touch _book/.nojekyll
+          
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_book'
+          
+  deploy:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 
