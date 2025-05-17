@@ -24,9 +24,9 @@ KTON is positioned to capture this growth by offering superior UX, robust securi
 
 | Protocol | APY | Instant Liquidity | Governance | Audit Status |
 |----------|-----|------------------|------------|--------------|
-| Tonstakers | 4.2 % | No | Centralised | Audit passed (V1) |
-| bemo | 4.0 % | Yes (swap pool) | DAO | Audit passed (code private) |
-| Hipo | 4.1 % | No | Centralised | Audit passed (V1) |
+| Other Protocol | 4.2 % | No | Centralised | Audit passed (V1) |
+| Other Protocol | 4.0 % | Yes (swap pool) | DAO | Audit passed (code private) |
+| Other Protocol | 4.1 % | No | Centralised | Audit passed (V1) |
 | **KTON** | **4.8 % (target 8 %)** | **Yes** | **On-chain DAO (planned)** | **Full audit passed** |
 
 ## 2.4 MEV-Boosted Yield Strategy
