@@ -27,8 +27,9 @@
 | Network | Contract | Address |
 |---------|----------|---------|
 | TON Mainnet | **KTON Jetton Minter** | `EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw` |
-| TON Mainnet | **Pool Root (v2)** | `EQBuIhXNNkWf9AW9miNGNTSO_uFZ23ejfIWrieXge5f733mw` |
+| TON Mainnet | **Pool** | `EQA9HwEZD_tONfVz6lJS0PVKR5viEiEGyj9AuQewGQVnXPg0` |
 | TON Mainnet | **Controller** | `Ef9GOR1wqJFPVpbHOxObSATkdbfTizRTmDi6DdjJFYaRKhoK` |
+| TON Mainnet | **Validator** | `Uf_lhdKTXcTJUnCVWYWXaoziqxkkLl-8PBP0be601QkE9TyT` |
 
 > Always verify addresses on-chain via [TONScan](https://tonscan.org/) before interacting.
 
