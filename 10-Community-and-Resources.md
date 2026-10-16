@@ -15,7 +15,7 @@ Join the KTON community, contribute to the ecosystem and stay informed:
 | Medium | <https://medium.com/kton-io> |
 | GitHub | <https://github.com/KTON-IO> |
 | Awesome-KTON List | <https://github.com/KTON-IO/awesome-kton> |
-| Media Kit | <https://tonx.notion.site/KTON-Media-Kit-1a1811267273809b8145e1d4d457db77> |
+| Media Kit | <https://kton.io/media-kit/> |
 
 ## 10.2 Support
 
