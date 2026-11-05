@@ -32,19 +32,17 @@ This chapter provides a step-by-step walkthrough for staking TON, managing $KTON
 
 * Burn **KTON** in the web app; receive TON after the current validator cycle ends (currently up to 36 h, planned optimisation to **≤18 h**).
 
-### Instant Withdrawal (Dynamic Fee)
+### Instant Withdrawal (Withdraw now)
 
-* Swap KTON → TON on **STON.fi** or via the in-app "Instant Withdraw" button.
-* Dynamic fee is applied based on pool utilisation (displayed in the app at withdrawal time).
+* In the web app choose **Withdraw now**: the pool pays you at once from its idle balance, for the instant-withdrawal fee (0.2% as of November 2026, shown before you sign).
+* The amount is limited to the pool's idle balance at that moment; for more, use the standard withdrawal above.
+
+### Do Not Sell KTON on a DEX
+
+* DEX pools set their own price for KTON, and it has been well below the pool's rate: on 2026-11-05 selling on STON.fi paid about 6% less than redeeming. Wallet swap screens route through the same pools.
+* Redeem through the pool instead, using either option above.
 
 ## 9.5 Using KTON in DeFi
-
-### Providing Liquidity
-
-1. Navigate to **STON.fi** → **Add Liquidity**.
-2. Select **KTON / TON** pool.
-3. Supply equal value of each token and confirm transactions.
-4. Earn swap fees + liquidity mining rewards (if active).
 
 ### Borrowing Against KTON
 

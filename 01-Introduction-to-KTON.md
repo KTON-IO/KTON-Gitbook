@@ -25,10 +25,10 @@ Our long-term vision is to make TON staking as liquid and ubiquitous as ETH stak
 ## 1.3 Key Highlights
 
 * **Institutional-grade security**: audited contracts, role-based access control, and time-delayed upgrades.
-* **Zero lock-up**: deposit or redeem at any time; instant withdrawal via swap pools.
+* **Zero lock-up**: deposit or redeem at any time; redeem at once from the pool's idle balance with **Withdraw now** in the app.
 * **Telegram-native UX**: Mini Apps and bot integrations tap into Telegram's 1 B user base.
 * **Official Telegram Bot**: access KTON directly via our Telegram Mini App at <https://t.me/ktonio_bot>.
-* **DeFi-ready from day one**: supported by DEXs such as STON.fi & DeDust, and visible on DefiLlama.
+* **DeFi-ready from day one**: a standard TON jetton, visible on DefiLlama. To turn KTON back into TON, redeem through the pool rather than selling on a DEX (see [9.4](09-User-Guide.md#94-redeeming-kton)).
 * **Transparent on-chain accounting**: real-time pool metrics via TonViewer & TONScan.
 
 Continue to **[2. Why KTON?](02-Why-KTON.md)** to understand KTON's competitive edge. 

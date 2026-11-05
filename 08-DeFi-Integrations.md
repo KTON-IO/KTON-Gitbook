@@ -4,10 +4,7 @@ $KTON serves as a foundational asset across the TON DeFi stack.  Below is a non-
 
 ## 8.1 Decentralised Exchanges (DEX)
 
-| Platform | Focus | Status |
-|----------|-------|--------|
-| **STON.fi** | General-purpose AMM for TON | Live |
-| **DeDust.io** | Order-book & AMM hybrid DEX | Live |
+KTON is not meant to be traded on DEXs. Pools there set their own price for KTON, and it has been well below the pool's rate: on 2026-11-05 selling on STON.fi paid about 6% less than redeeming. To turn KTON back into TON, redeem through the pool (see [9.4](09-User-Guide.md#94-redeeming-kton)).
 
 ## 8.2 Liquidity & Stable Hubs
 

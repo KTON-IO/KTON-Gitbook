@@ -11,7 +11,7 @@
 1. **Deposit** TON into the pool via <https://app.kton.io/> or the Telegram Mini App.
 2. **Mint** — The pool issues **$KTON** to your wallet proportional to your deposit divided by the current exchange rate.
 3. **Earn** — Validators generate rewards, increasing the exchange rate *TON per KTON*.
-4. **Redeem or Swap** — Burn $KTON to reclaim TON (with an optional instant-withdrawal fee) or trade on DEXs for immediate liquidity.
+4. **Redeem** — Burn $KTON to reclaim TON at the pool's rate: at the next rotation with no fee, or at once from the pool's idle balance for the instant-withdrawal fee.
 
 ## 3.3 Key Metrics
 
@@ -20,7 +20,7 @@
 | **Total Value Locked (TVL)** | Total TON controlled by the pool. Visible on DefiLlama. |
 | **APY** | Annualised yield after fees. Target **8 %** with MEV. |
 | **Exchange Rate** | TON per KTON. Starts at 1.0 and increases with rewards. |
-| **Instant Withdrawal Fee** | Dynamic fee applied when swapping $KTON→TON instantly. |
+| **Instant Withdrawal Fee** | Fee for being paid out at once from the pool's idle balance instead of at the next rotation. |
 
 ## 3.4 Contract Addresses
 
@@ -36,12 +36,12 @@
 ## 3.5 Fees
 
 * **Protocol Fee:** A DAO-governed share of validator rewards goes to the treasury.
-* **Instant Withdrawal Fee:** Dynamic, governed by liquidity conditions.
+* **Instant Withdrawal Fee:** Set by governance (0.2% as of November 2026) and shown in the app before you sign.
 
 ## 3.6 Risks
 
 * **Validator Slashing:** Mitigated by diversification and conservative staking thresholds.
 * **Smart-Contract Risk:** Minimised through audits and formal verification.
-* **Peg Deviation:** Liquidity pools help maintain a tight KTON↔TON peg, but extreme market conditions may widen spread.
+* **DEX Price:** DEX pools set their own price for KTON, and it has been well below the pool's rate (on 2026-11-05 selling on STON.fi paid about 6% less than redeeming). Redeem through the pool instead of selling on a DEX.
 
 Next: **[4. Technical Architecture](04-Technical-Architecture.md)** 
